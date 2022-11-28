@@ -8,12 +8,28 @@
     body {
       display: block;
       background-color: #F4F4ED;
+      margin-bottom: 12vh;
   }
 
-
-/*hr {
-    border: 0.1px solid red;
-  }*/
+  ::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background: #2656FF;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: black;
+    background: #F4F4ED;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: crimson;  
+    }
 
 header {
     text-justify: center;
