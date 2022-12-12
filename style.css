@@ -208,7 +208,6 @@ i {
   align-items: flex-start;
   box-sizing: border-box;
   display: flex;
-  flex-wrap: wrap;
   border-bottom: 1px solid crimson;
   width: 100vw;
   padding: 1rem;
@@ -310,6 +309,9 @@ img.one {
   width: 100%;
 }
 
+[grid-row] {
+grid-gap: 1rem;
+}
 .columnthree {
   width: 100%;
 }
