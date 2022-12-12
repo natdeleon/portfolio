@@ -25,7 +25,7 @@
     }
     
     ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
+    border-radius: 1rem;
     border: solid 1px;
     border-color: black;
     background: #F4F4ED;
@@ -102,12 +102,7 @@ p {
 p.one {
   font-size: 0.7rem;
   line-height: 1.2rem;
-  display: flex;
-  justify-content: center;
-  border-top: 1px solid crimson;
-    margin-top: 0.5rem;
-    padding-top: 0.5rem;
-    color: crimson;
+  color: crimson;
 }
 
 p.two {
@@ -119,14 +114,22 @@ p.two {
 p.three {
   font-size: larger;
   line-height: 1.2rem;
-  
+}
+
+.menu { 
+  border-bottom: 1px solid crimson;
+  margin-bottom: 0.8rem; padding-bottom:
+  0.8rem; border-top: 1px solid crimson;
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1 {
 display: flex;
 justify-content: flex-start;
-font-weight: 600;
-font-size: 1.6rem;
 border-bottom: 5px solid rgb(255, 0, 0);
 padding: 1rem;
 font-style: italic;
@@ -135,31 +138,17 @@ font-style: italic;
 h2 {
     display: flex;
     justify-content: center;
-    font-weight: 600;
     border-bottom: 2px solid crimson;
     border-top: 2px solid crimson;
-    padding: 1rem;
-    font-size: 0.8rem;
+    padding: 1.2rem;
     font-style: italic;
-    font-weight: 300;
+    margin-top: 0.8rem;
  }
 
-h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 0.8rem;
+h4 {
     text-decoration: underline;
-    border-bottom: 1px solid crimson;
-    margin-bottom: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-weight: 300;
 }
 
-h4 {
-  font-size: 0.7rem;
-  text-decoration: underline;
-  font-weight: 300;
-}
 
 a:hover {
   color: #2656FF;
@@ -171,6 +160,15 @@ a {
   text-decoration: none;
 }
 
+i:hover {
+  color: #2656FF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+i {
+  text-decoration: none;
+}
 
 .force-overflow {
 	min-height: 450px;
@@ -225,7 +223,6 @@ img.one {
     border: 7px solid red;
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-bottom: 1rem;
   }
 
   img.two {
@@ -263,19 +260,17 @@ img.one {
   }
 
   #myBtn {
-    display: flex;
     position: fixed;
-    bottom: -0.3rem;
+    bottom: 0.25rem;
     z-index: 99;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 0.7rem;
     border: 1px solid crimson;
     outline: none;
-    background-color: none;
     color: black;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 0.2rem;
     padding-right: 1rem;
     padding-left: 1rem;
     border-radius: 1rem;
