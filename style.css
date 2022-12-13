@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Overpass Mono', monospace;
     color: rgb(0, 0, 0);
   }
 
@@ -9,6 +8,7 @@
       display: block;
       background-color: #F4F4ED;
       margin-bottom: 12vh;
+      font-family: 'Overpass Mono', monospace;
   }
 
   {
@@ -36,7 +36,10 @@
     }
 
 header {
-    text-justify: center;
+display: flex;
+justify-content: flex-start;
+border-bottom: 5px solid crimson;
+padding: 1rem;
 }
 
 main {
@@ -127,22 +130,22 @@ p.three {
     flex-direction: column;
 }
 
+.menutwo { 
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid crimson;
+  border-top: 2px solid crimson;
+  padding: 1.2rem;
+  margin-top: 0.8rem;
+}
+
 h1 {
-display: flex;
-justify-content: flex-start;
-border-bottom: 5px solid crimson;
-padding: 1rem;
 font-style: italic;
+font-size: 1.5rem
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid crimson;
-    border-top: 2px solid crimson;
-    padding: 1.2rem;
     font-style: italic;
-    margin-top: 0.8rem;
  }
 
 h4 {
@@ -153,7 +156,7 @@ h5 {
 padding-bottom: 0.3rem;
 }
 
-a:hover {
+a:hover , i:hover , b:hover {
   color: #2656FF;
   text-decoration: none;
   cursor: pointer;
@@ -163,15 +166,7 @@ a {
   text-decoration: none;
 }
 
-i:hover {
-  color: #2656FF;
-  text-decoration: none;
-  cursor: pointer;
-}
 
-i {
-  text-decoration: none;
-}
 
 .force-overflow {
 	min-height: 450px;
@@ -222,23 +217,21 @@ i {
 }
 
 img.one {
-    border: 7px solid red;
+    border: 7px solid crimson;
     margin-left: 1rem;
     margin-right: 1rem;
   }
 
   img.two {
     object-fit: scale-down;
-    display: flex;
-    margin: 1rem;
-    align-self: center;
+    margin-bottom: 1rem;
     justify-self: center;
   }
   
   img.three {
     display: flex;
     max-width: 100%;
-    margin: 1rem
+    margin-bottom: 1rem;
   }
 
   img.four {
@@ -263,18 +256,16 @@ img.one {
 
   #myBtn {
     position: fixed;
-    bottom: 0.25rem;
-    z-index: 99;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 4.25rem;
+    right: 5%;
     font-size: 0.7rem;
     border: 1px solid crimson;
     outline: none;
     color: black;
     cursor: pointer;
     padding: 0.2rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
     border-radius: 1rem;
   }
   
