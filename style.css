@@ -255,9 +255,10 @@ img.one {
   }
 
   #myBtn {
+    display: none;
     position: fixed;
     bottom: 4.25rem;
-    right: 5%;
+    right: 2rem;
     font-size: 0.7rem;
     border: 1px solid crimson;
     outline: none;
@@ -268,7 +269,9 @@ img.one {
     padding-left: 0.3rem;
     border-radius: 1rem;
   }
+
   
+
   #myBtn:hover {
     background-color: #2656FF;
   }
