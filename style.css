@@ -62,9 +62,10 @@ main {
 }
 
 footer {
-    display: flex;
+    /*display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-between;*/
+    text-align: center;
     border-top: 2px solid crimson;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -98,18 +99,18 @@ nav {
 }
 
 p {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   line-height: 1.2rem;
 }
 
 p.one {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   line-height: 1.2rem;
   color: rgb(72, 72, 72);
 }
 
 p.two {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   line-height: 1.2rem;
   text-align: center;
 }
